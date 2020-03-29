@@ -1,0 +1,10 @@
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\bin\Debug\MarsWeightConverter.exe.config
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\bin\Debug\MarsWeightConverter.exe
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\bin\Debug\MarsWeightConverter.pdb
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.csprojAssemblyReference.cache
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.Exercise3.resources
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.Properties.Resources.resources
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.csproj.GenerateResource.cache
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.csproj.CoreCompileInputs.cache
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.exe
+C:\Users\Kekoa\source\repos\MarsWeightConverter\MarsWeightConverter\obj\Debug\MarsWeightConverter.pdb
