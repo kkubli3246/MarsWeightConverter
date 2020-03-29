@@ -69,19 +69,21 @@
             // 
             // btn_Convert
             // 
+            this.btn_Convert.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Convert.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_Convert.Location = new System.Drawing.Point(142, 175);
             this.btn_Convert.Name = "btn_Convert";
             this.btn_Convert.Size = new System.Drawing.Size(75, 23);
             this.btn_Convert.TabIndex = 4;
             this.btn_Convert.Text = "Convert";
-            this.btn_Convert.UseVisualStyleBackColor = true;
+            this.btn_Convert.UseVisualStyleBackColor = false;
             this.btn_Convert.Click += new System.EventHandler(this.btn_Convert_Click);
             // 
             // Exercise3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 233);
+            this.ClientSize = new System.Drawing.Size(377, 233);
             this.Controls.Add(this.btn_Convert);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tb_marsWeight);
