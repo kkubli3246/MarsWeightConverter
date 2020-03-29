@@ -26,11 +26,27 @@ namespace MarsWeightConverter
         private void btn_Convert_Click(object sender, EventArgs e)
         {
             string earthWeight = tb_earthWeight.Text;
-            double result = convertWeight(Convert.ToDouble(earthWeight));
 
-            //Math.Truncate to Limit the Deouble to 3 decimal places without rounding
-            result = Math.Truncate(result * 1000) / 1000;
-            tb_marsWeight.Text = result.ToString();
+            //Checks to see if the tb_earthWeight.Text is a number and not a string input
+            Boolean isNumber = true;
+
+            foreach (char c in earthWeight) {
+                if (c < '0' || c > '9') { isNumber = false; }
+            }
+
+            if (isNumber)
+            {
+
+                double result = convertWeight(Convert.ToDouble(earthWeight));
+
+                //Math.Truncate to Limit the Deouble to 3 decimal places without rounding
+                result = Math.Truncate(result * 1000) / 1000;
+                tb_marsWeight.Text = result.ToString();
+            }
+            else
+            {
+                tb_earthWeight.Text = "Please input a Number!!";
+            }
         }
 
         /*
@@ -40,5 +56,6 @@ namespace MarsWeightConverter
             return earthWeight * (3.7208 / 9.8067);
 
         }
+
     }
 }
